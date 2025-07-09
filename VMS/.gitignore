@@ -1,0 +1,47 @@
+﻿# Build and Visual Studio files
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# Build results
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Others
+*.dbmdl
+*.bak
+*.ldf
+*.mdf
+
+# Publish artifacts
+publish/
+TestResults/
+*.TestResults
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Database backups
+*.bak
+
+# Ignore compiled resources
+*.resources
+
+# JetBrains Rider
+.idea/
