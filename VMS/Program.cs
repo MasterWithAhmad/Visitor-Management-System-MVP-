@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VMS.Forms.Auth;
 
 namespace VMS
 {
@@ -16,7 +17,7 @@ namespace VMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run();
+            Application.Run(new LoginForm());
         }
     }
 }
